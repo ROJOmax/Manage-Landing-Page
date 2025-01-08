@@ -75,15 +75,16 @@ body {
     color: var(--clr-primary-400);
     background-image: url("/images/bg-tablet-pattern.svg");
     background-repeat: no-repeat;
-    background-position: top -100px right -140px;
-    background-size: 125%;
+    background-position: right -220px bottom 10px;
+    background-size: 96%;
 
 }
 
 @media (min-width: 700px) {
     body {
         background-size: 53%;
-        background-position: top -115px right -140px;
+
+        background-position: bottom -1100px left -450px  ;
 
     }
 }
@@ -91,10 +92,9 @@ body {
 /* Sales points bg */
 
 
-
 p:not([class]) {
     opacity: 50.25%;
-    max-width: 32ch;
+    max-width: 30ch;
 }
 
 p[data-width="wide"] {
@@ -250,6 +250,21 @@ p[data-width="wide"] {
         order: -1;
     }
 }
+
+/* IMPORTANT !!! 
+Couldn't fix the blobs
+*/
+
+/* .iluustration-bg::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 50%;
+    aspect-ratio: 1;
+    background-image: url("/images/bg-tablet-pattern2.svg");
+    background-position: right -300 top;
+    background-repeat: no-repeat;
+} */
 
 /* Numbered Items */
 
